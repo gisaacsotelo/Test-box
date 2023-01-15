@@ -12,6 +12,6 @@ jobs:
   # Calling reuable workflow
   sonarcloudScan_tf:
     name: Analyze Path
-    uses: gisaacsotelo/reusable-workflows/.github/workflows/reusable-flow.yml@d56d6212a089c89196ed372fe9644d99b8a9a786
+    uses: gisaacsotelo/reusable-workflows/.github/workflows/reusable-flow.yml@main
     with:
       path: "mycompany/myproject/mysolution"
