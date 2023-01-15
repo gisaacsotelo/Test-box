@@ -1,0 +1,17 @@
+# ^   MAIN WORKFLOW
+
+name: Main Flow (Node)
+on:
+  push:
+    branches:
+      - test/reusable**
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  # Calling reuable workflow
+  sonarcloudScan_tf:
+    name: Analyze Path
+    uses: gisaacsotelo/reusable-workflows/.github/workflows/reusable-flow.yml
+    with:
+      path: "mycompany/myproject/mysolution"
