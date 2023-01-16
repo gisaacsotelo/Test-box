@@ -2,7 +2,6 @@
 
 name: Main Flow (Node)
 on:
-  workflow_dispatch:
   push:
     branch:
       - test**
