@@ -10,8 +10,7 @@ on:
 
 jobs:
   # Calling reuable workflow
-  sonarcloudScan_tf:
-    name: Analyze Path
+  sonarcloudScan:
     uses: gisaacsotelo/reusable-workflows/.github/workflows/reusable-flow.yml@main
     with:
       path: "mycompany/myproject/mysolution"
