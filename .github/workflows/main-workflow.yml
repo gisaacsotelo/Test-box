@@ -7,6 +7,6 @@ on:
 jobs:
   # Calling reuable workflow
   sonarcloudScan:
-    uses: gisaacsotelo/reusable-workflows/.github/workflows/reusable-flow.yml@main
+    uses: gisaacsotelo/reusable-workflows/.github/workflows/reusable-flow.yml@dev
     with:
       path: "mycompany/myproject/mysolution"
