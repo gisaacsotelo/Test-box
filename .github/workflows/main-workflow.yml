@@ -2,11 +2,7 @@
 
 name: Main Flow (Node)
 on:
-  push:
-    branches:
-      - test/reusable**
-  pull_request:
-    types: [opened, synchronize, reopened]
+  workflow_dispatch:
 
 jobs:
   # Calling reuable workflow
