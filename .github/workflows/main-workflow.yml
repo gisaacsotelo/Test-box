@@ -13,4 +13,4 @@ jobs:
     with:
       path: "fleet/cargo/apf1 fleet/cargo/apf2 fleet/roll/apf1 fleet/roll/apf2"
       # path: "mycompany/myproject/mysolution"
-      path-matrix: "[ 'fleet/cargo/apf1', 'fleet/cargo/apf2', 'fleet/roll/apf1 fleet/roll/apf2' ]"
+      path-matrix: "[ 'fleet/cargo/apf1', 'fleet/cargo/apf2', 'fleet/roll/apf1', 'fleet/roll/apf2' ]"
