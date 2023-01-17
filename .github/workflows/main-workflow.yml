@@ -1,6 +1,6 @@
 # ^   MAIN WORKFLOW
 
-name: Main Flow (Node)
+name: Main Flow
 on:
   push:
     branch:
