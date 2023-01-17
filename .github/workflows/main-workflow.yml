@@ -11,5 +11,14 @@ jobs:
   sonarcloudScan:
     uses: gisaacsotelo/reusable-workflows/.github/workflows/reusable-flow.yml@dev
     with:
-      path: "fleet/cargo/apf1, fleet/cargo/apf2, fleet/roll/apf1, fleet/roll/apf2"
+      path: "fleet/cargo/apf1 fleet/cargo/apf2 fleet/roll/apf1 fleet/roll/apf2"
       # path: "mycompany/myproject/mysolution"
+
+
+# path: >-
+#   "
+#   fleet/cargo/apf1
+#   fleet/cargo/apf2
+#   fleet/roll/apf1
+#   fleet/roll/apf2
+#   "
