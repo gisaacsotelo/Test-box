@@ -12,4 +12,4 @@ jobs:
     uses: gisaacsotelo/reusable-workflows/.github/workflows/new-flow.yml@dev
     with:
       path: "openloop/apf1"
-      solution: "[ 'apf1', 'apf2', 'tf' ]"
+      solution-matrix: "[ 'apf1', 'apf2', 'tf' ]"
