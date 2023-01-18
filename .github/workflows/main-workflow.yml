@@ -9,8 +9,9 @@ on:
 jobs:
   # Calling reuable workflow
   sonarcloudScan:
-    uses: gisaacsotelo/reusable-workflows/.github/workflows/reusable-flow.yml@dev
+    uses: gisaacsotelo/reusable-workflows/.github/workflows/new-flow.yml@dev
     with:
-      path: "fleet/cargo/apf1 fleet/cargo/apf2 fleet/roll/apf1 fleet/roll/apf2"
-      # path: "mycompany/myproject/mysolution"
-      path-matrix: "[ 'fleet/cargo/apf1', 'fleet/cargo/apf2', 'fleet/roll/apf1', 'fleet/roll/apf2' ]"
+      # path: "fleet/cargo/apf1 fleet/cargo/apf2 fleet/roll/apf1 fleet/roll/apf2"
+      # # path: "mycompany/myproject/mysolution"
+      # path-matrix: "[ 'fleet/cargo/apf1', 'fleet/cargo/apf2', 'fleet/roll/apf1', 'fleet/roll/apf2' ]"
+      string: "[ 'p0: fleet', 'p1: cargo', 'p2: apf' ]"
