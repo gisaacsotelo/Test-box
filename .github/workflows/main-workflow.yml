@@ -15,3 +15,4 @@ jobs:
       # path: "mycompany/myproject/mysolution"
       # path-matrix: "[ 'fleet/cargo/apf1', 'fleet/cargo/apf2', 'fleet/roll/apf1', 'fleet/roll/apf2' ]"
       string: "[ 'p0: fleet', 'p1: cargo', 'p2: apf' ]"
+      
