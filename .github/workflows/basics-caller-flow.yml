@@ -1,0 +1,22 @@
+# ^ BASICS: Main flow that will call a reusable flow
+
+name: Basics - Main Flow
+
+on:
+  # push:
+  #   branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  job1:
+    name: Call Reusable Workflow
+    # uses: <path of the file we want to use>
+    uses: gisaacsotelo/reusable-workflows/.github/workflows/basics-data.yml@main
+    # with: <inputs required for the flow to work>
+    with:
+      str_input: "This is my input string"
+
+    # secrets:
+      # Add secrets here if required
+      # SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      # AZURE_ARTIFACTS_TOKEN: ${{ secrets.AZURE_ARTIFACTS_TOKEN }}   
