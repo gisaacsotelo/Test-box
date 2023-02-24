@@ -3,8 +3,8 @@
 name: Basics - Main Flow
 
 on:
-  # push:
-  #   branches: [ main ]
+  push:
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
