@@ -1,10 +1,10 @@
 # ^ BASICS: Main flow that will call a reusable flow
 
-name: Basics - Main Flow
+name: Basics - Manual Trigger Test
 
 on:
-  push:
-    branches: [ main ]
+  # push:
+  #   branches: [ main ]
   workflow_dispatch:
 
 jobs:
