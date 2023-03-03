@@ -1,6 +1,8 @@
-# ^ BASICS: Main flow that will call a reusable flow
+# ^ TRIGGER FLOW
+# This flow will call a reusable workflow when manually triggered.
+# Used test some basic data flow principles in GitHub Actions
 
-name: Basics - Manual Trigger Test
+name: DataFlow - Trigger
 
 on:
   # push:
